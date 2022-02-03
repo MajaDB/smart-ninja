@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box; /*Padding, Margin, Border are included in width and height.*/
+}
+
+body {
+    margin:0;
+}
+.square {
+    background: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container {
+    display: auto;
+    border: 10px solid black;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    flx-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    background-color: red;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    width: 350px
+    display: flex;
+    justify-content: space-around;
+}
